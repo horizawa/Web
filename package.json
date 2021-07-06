@@ -9,8 +9,7 @@
     "server": "nodemon server.js",
     "client": "npm run build --prefix client",
     "client-dev": "npm run dev --prefix client",
-    "dev": "concurrently \"npm run start\" \"npm run client-dev\"",
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+    "dev": "concurrently \"npm run start\" \"npm run client-dev\""
   },
   "engines": {
     "node": "12.8.0",
