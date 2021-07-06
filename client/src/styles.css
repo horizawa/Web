@@ -1,0 +1,99 @@
+body {
+  box-sizing: border-box;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+.book-field {
+  font-weight: bold;
+}
+
+.book-icon {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.coverBox {
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+}
+
+.fa-refresh {
+  color: #673ab7;
+  font-size: 2.5em;
+}
+
+.fa-refresh::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.filepond--drop-label {
+  background-color: #673ab7;
+}
+
+.filepond--root {
+  margin-top: 1rem;
+}
+
+/* label focus color */
+.input-field input:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+  color: #9e9e9e !important;
+}
+
+/* label underline focus color */
+.input-field input:focus,
+.materialize-textarea:focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #9e9e9e !important;
+  box-shadow: 0 1px 0 0 #9e9e9e !important;
+}
+
+.loading-screen {
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  padding-top: 8rem;
+}
+
+.load-msg {
+  text-align: center;
+}
+
+.second-font,
+label,
+li,
+.btn,
+p,
+input,
+.input-field {
+  font-family: "Fauna One", serif;
+}
+
+.margin-bottom-small {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-med {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-large {
+  margin-bottom: 3rem;
+}
+
+.margin-top-small {
+  margin-top: 1rem;
+}
+
+.padding-bottom-small {
+  padding-bottom: 1rem;
+}
+
+.toast {
+  background-color: #e57373;
+  color: white;
+}

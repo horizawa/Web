@@ -1,0 +1,38 @@
+{
+  "name": "books-to-read",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --no-hmr",
+    "build": "parcel build src/index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "filepond": "^4.7.1",
+    "filepond-plugin-file-encode": "^2.1.4",
+    "filepond-plugin-image-preview": "^4.4.0",
+    "filepond-plugin-image-resize": "^2.0.4",
+    "filepond-plugin-image-transform": "^3.4.3",
+    "parcel-bundler": "^1.12.5",
+    "react": "^16.9.0",
+    "react-datepicker": "^2.9.6",
+    "react-dom": "^16.9.0",
+    "react-filepond": "^7.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  }
+}
